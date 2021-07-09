@@ -17,7 +17,7 @@ write_matex <- function(x) {
   writeLines(c(begin, X, end))
 }
 
-wd <- "C:/Users/Eva/Downloads/Statistical Computation/HW1/"
+wd <- "C:/Users/"
 ######### 1 #########
 data <- read.csv2(paste0(wd,"villorSW.csv")) %>%
   mutate(x0 = rep(1, 29))
