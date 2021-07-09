@@ -17,7 +17,7 @@ write_matex <- function(x) {
   writeLines(c(begin, X, end))
 }
 
-wd <- "C:/Users/Eva/Downloads/Statistical Computation/HW3/"
+wd <- "C:/Users/"
 ######### 1 #########
 
 # a)
